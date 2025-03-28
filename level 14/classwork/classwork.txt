@@ -1,0 +1,4 @@
+sequencing არის თანმიმდევრობა
+interation არის გამეორება
+selection არის არჩევა
+algorith არის ბრძანების ისტრუქცია
