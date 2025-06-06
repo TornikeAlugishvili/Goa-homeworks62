@@ -1,5 +1,5 @@
 name="tornike"
-surname=" and his surname is maisuradze"
+surname=" and his surname is Alugishvili"
 height="is 152 cm"
 age="and his age is 11"
 knows_programming=True

@@ -1,0 +1,1 @@
+rgb არის შემოკლებული ვერსია red-green-blue-სა და rgb-ს საშუალებიტ ვირჩევთ რაიმეს ფერს, რომელიც გამოიყენება internal, extrenal, inline-css-ში
