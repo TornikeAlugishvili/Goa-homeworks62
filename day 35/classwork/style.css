@@ -1,0 +1,10 @@
+.a {
+    text-decoration: overline dashed red;
+}
+.b {
+    text-decoration: underline wavy purple;
+}
+.c {
+    text-align: justify;
+    text-decoration: line-through dashed blue;
+}

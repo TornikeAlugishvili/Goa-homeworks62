@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+img {
+    background-color: aqua;
+}
+
+img:hover {
+    width: 150px;
+}
