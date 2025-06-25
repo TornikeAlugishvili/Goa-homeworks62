@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    text-align: center;
+}
+div {
+    background-color: yellow;
+}
+
+th {
+    background-color: rgb(255, 62, 62);
+    color: aliceblue;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(2, 237, 2);
+    text-align: center;
+}

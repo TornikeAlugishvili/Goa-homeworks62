@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+table {
+    border: 2px solid gray;
+}
+
+th {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    color: aliceblue;
+}
+
+.a {
+    background-color: rgb(0, 255, 0);
+}
+
+.b {
+    background-color: rgb(115, 171, 32);
+}
+
+.c {
+    background-color: rgb(146, 127, 16);
+}
+
+.d {
+    background-color: brown;
+}
+
+.e {
+    background-color: red;
+}

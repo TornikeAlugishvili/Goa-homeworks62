@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+table {
+    border: 2px solid orange;
+    background-color: yellow;
+}
+
+th {
+    border: 1px solid orange;
+    background-color: yellow;
+}
+
+td {
+    border: 1px solid black;
+}
+
+input {
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid white;
+}
