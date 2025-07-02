@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    background-color: aqua;
+}
+th {
+    background-color: blue;
+}
