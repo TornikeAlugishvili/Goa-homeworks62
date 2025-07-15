@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #44c4e7;
+}
+
+input[type="button"] {
+    background-color: #44c4e7;
+    border: none;
+    width: 219px;
+    height: 30px;
+    color: aliceblue;
+}
+
+input{
+    height: 20px;
+    outline: none;
+    border: solid 1px rgb(221, 221, 221);
+    width: 210px;
+}
