@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(185, 75%, 39%);
+            height: 90vh;
+            font-family: "Kumbh Sans", sans-serif;
+            font-family: "Hanken Grotesk", sans-serif;
+            background-image: url(./images/bg-pattern-top.svg);
+            background-repeat: no-repeat;
+            background-size: 700px 700px;
+            background-position: -50px -200px;
+        }
+
+        .annoying_photo2 {
+            position: absolute;
+            top: 225px;
+            right: 10px;
+            background-image: url(./images/bg-pattern-bottom.svg);
+            background-size: auto;
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="width: 500px; height: 400px; background-color: aliceblue;border-radius: 8px;">
+        <div style="height: 130px; width: 500px; background-image: url(./images/bg-pattern-card.svg);">
+            <img src="./images/image-victor.jpg" alt=""
+                style="position: relative;right: -200px; bottom: -60px;border-radius: 50%;border: 4px solid white;">
+        </div><br>
+        <div style="height: 130px; width: 500px;">
+            <h1 style="text-align: center;">Victor Crest <span style="color: gray;">26</span></h1>
+            <p style="color: gray; text-align: center;">London</p>
+        </div>
+        <div style="border-top: 2px solid gray; width: 500px;">
+            <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                <h1>80K</h1>
+                <h1>803K</h1>
+                <h1>1.4K</h1>
+            </div>
+
+            <div
+                style="display: flex; flex-direction: row; justify-content: space-around;color: gray; position: relative; top: -30px;">
+                <p>Followers</p>
+                <p>Likes</p>
+                <p>Photos</p>
+            </div>
+        </div>
+    </div>
+    <div class="annoying_photo2"></div>
+</body>
+
+</html>
