@@ -1,0 +1,10 @@
+In Python, a callback is a function that is passed as an argument to another function, and then executed at a later point in time by that receiving function. This concept is fundamental in event-driven programming and asynchronous operations.
+Key aspects of callbacks in Python:
+Passing Functions as Arguments:
+Python allows functions to be treated as first-class objects, meaning they can be assigned to variables, passed as arguments to other functions, and returned from functions. This capability is what enables the use of callbacks.
+Higher-Order Functions:
+The function that accepts a callback function as an argument is often referred to as a "higher-order function." This function is responsible for invoking the callback when a specific event occurs or a condition is met.
+Event-Driven Programming:
+Callbacks are commonly used in event-driven programming, where the flow of the program is determined by events (e.g., user input, sensor data, network messages). When an event occurs, the corresponding callback function is executed to handle that event. 
+Asynchronous Operations:
+Callbacks are crucial in handling asynchronous operations, where a task might take time to complete and the program needs to continue execution without waiting for that task. The callback function is executed once the asynchronous operation finishes.

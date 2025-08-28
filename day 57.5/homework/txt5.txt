@@ -1,0 +1,17 @@
+In Python, the filter() function is a built-in function used to construct an iterator from elements of an iterable for which a function returns true.
+Syntax:
+Python
+
+filter(function, iterable)
+Parameters:
+function:
+A function that tests each element in the iterable. This function should return a boolean value (True or False). If None is passed for the function, filter() will remove elements that evaluate to False in a boolean context (e.g., 0, None, empty strings, empty lists).
+iterable:
+An iterable object (e.g., a list, tuple, set, string) whose elements are to be filtered.
+Return Value:
+The filter() function returns an iterator (a filter object). To obtain a usable collection like a list or tuple, you typically need to convert this object using list(), tuple(), etc.
+How it Works:
+The filter() function iterates through each element in the iterable.
+For each element, it applies the function provided.
+If the function returns True for an element, that element is included in the resulting filter object.
+If the function returns False for an element, that element is excluded.
