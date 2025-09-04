@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all" id="myButton">
+        <audio id="hoverSound" src="Car Accelerating - Sound Effect.mp3" preload="auto"></audio>
+        <div class="car">
+            <!-- car -->
+            <img src="car.png" alt="" width="600px" height="200px">
+        </div>
+        <div class="wheel">
+            <img src="wheel.png" alt="" width="105px" height="115px" id="wheel">
+        </div>
+        <div class="wheel2">
+            <img src="wheel.png" alt="" width="105px" height="115px" id="wheel">
+        </div>
+    </div>
+
+
+    <script>
+        const button = document.getElementById('myButton');
+        const sound = document.getElementById('hoverSound');
+
+        button.addEventListener('mouseenter', () => {
+            sound.currentTime = 0; // იწყებს თავიდან ყოველ hover-ზე
+            sound.play();
+        });
+    </script>
+</body>
+
+</html>

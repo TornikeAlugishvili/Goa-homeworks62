@@ -6,7 +6,5 @@ def function_lol(func, numbers):
 
 random_list = [1,2,3,4,5]
 
-lambda_copy = lambda x: x * 5
-
-new = function_lol(lambda_copy, random_list)
+new = function_lol(lambda x: x * 5, random_list)
 print(new)
