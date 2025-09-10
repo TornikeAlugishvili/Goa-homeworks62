@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header div nav ul li {
+    font-size: 16px;
+}
+
+.first {
+    display: flex;
+    gap: 120px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+#instagram {
+    width: 45px;
+    height: 35px;
+}
+
+.logo {
+    width: 80px;
+    height: 25px;
+}
+
+main {
+    width: 100%;
+    height: 554px;
+    background-color: #F0EFEB;
+}
+
+.heading1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main div div button {
+    border: none;
+    width: 129px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.photo {
+    width: 599px;
+    height: 521px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+}
