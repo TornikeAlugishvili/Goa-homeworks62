@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    animation-name: animation_for_sec1;
+    animation-duration: 1.2s;
+    right: 500px;
+    opacity: 0.2;
+    animation-fill-mode: forwards;
+}
+
+header div nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header div nav ul li {
+    font-size: 16px;
+}
+
+.first {
+    display: flex;
+    gap: 120px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+#instagram {
+    width: 45px;
+    height: 35px;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+}
+
+main {
+    width: 100%;
+    height: 554px;
+    background-color: #F0EFEB;
+}
+
+.heading1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main div div button {
+    border: none;
+    width: 129px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.photo {
+    width: 599px;
+    height: 521px;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    position: relative;
+}
+
+.parent2 {
+    height: 1100px;
+    background-color: white;
+}
+
+.parent3 {
+    height: 1100px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent4 {
+    height: 1100px;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent5 {
+    height: 1100px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent6 {
+    height: 2500px;
+    background-color: #E0E0E0;
+    text-align: center;
+}
+
+.balls {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 50px;
+}
+
+.row1,.row2 {
+    flex-direction: row;
+}
+
+.columnita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thalbiimage {
+    width: 315px;
+    height: 422px;
+    transition: 2s;
+}
+
+.idkname {
+    display: flex;
+    flex-direction: row;
+    margin-top: -550px;
+    margin-bottom: 50px;
+}
+
+.thalbiimage:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+.thalbies {
+    /* height: 180vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent1:hover {
+    animation-name: scaling;
+    animation-duration: 1s;
+}
+
+.card {
+    transition: 2s;
+}
+
+.card:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+@keyframes animation_for_sec1 {
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes scaling {
+    50% {
+        transform: scale(1.1);
+    }
+
+}
+
+@media (max-width:1056px) {
+    header .first {
+        display: none;
+    }
+
+    .parent1 {
+        flex-direction: column;
+    }
+
+    .parent1:hover {
+        animation: none;
+    }
+
+    main {
+        height: 1150px;
+    }
+
+    header {
+        animation: none;
+        right: 40px;
+        justify-content: space-between;
+        opacity: 1;
+    }
+
+    .photo {
+        width: 80%;
+        height: auto;
+    }
+
+    .thalbies {
+        flex-direction: column;
+    }
+
+    .thalbiimage:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .idkname {
+        margin-top: -350px;
+        flex-direction: column;
+    }
+
+    .parent3, .parent4,.parent5{
+     flex-direction: column;
+    }
+
+    .card:hover {
+        transition: none;
+        transform: none;
+    }
+
+}
+
+

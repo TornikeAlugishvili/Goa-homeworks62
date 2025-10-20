@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    overflow-x: hidden;
 }
 
 header {
@@ -17,6 +12,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    animation-name: animation_for_sec1;
+    animation-duration: 1.2s;
+    right: 500px;
+    opacity: 0.2;
+    animation-fill-mode: forwards;
 }
 
 header div nav ul {
@@ -52,6 +53,7 @@ header div nav ul li {
 }
 
 .logo {
+    position: absolute;
     width: 80px;
     height: 25px;
 }
@@ -95,9 +97,58 @@ main div div {
     height: 521px;
 }
 
-.parent {
+.parent1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 170px;
+    position: relative;
+}
+
+.parent1:hover {
+    animation-name: scaling;
+    animation-duration: 1s;
+}
+
+@keyframes animation_for_sec1 {
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes scaling {
+    50% {
+        transform: scale(1.1);
+    }
+
+}
+
+@media (max-width:1056px) {
+    header .first {
+        display: none;
+    }
+    .parent1 {
+        flex-direction: column;
+    }
+    
+    .parent1:hover {
+        animation: none;
+    }
+
+    main {
+        height: 1150px;
+    }
+
+    header {
+        animation: none;
+        right: 40px;
+        justify-content: space-between;
+        opacity: 1;
+    }
+
+    .photo {
+        width: 80%;
+        height: auto;
+    }
 }
