@@ -1,0 +1,1 @@
+# moduls ver gmoviyenebt da magito
