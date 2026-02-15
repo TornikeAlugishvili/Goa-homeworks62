@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+} 
+
+#frm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 10px;
+}
+
+#submit {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#email {
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+
+#password {
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+}

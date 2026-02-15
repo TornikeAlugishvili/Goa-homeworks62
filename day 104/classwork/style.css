@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+input {
+    border: 2px solid rgb(0, 255, 0);
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 260px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#message {
+    width: 350px;
+    text-align: center;
+    height:130px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transform: translate(365px);
+    transition:0.5s;
+}
+
+#para {
+    color: white;
+}
