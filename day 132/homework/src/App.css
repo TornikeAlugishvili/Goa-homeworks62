@@ -1,0 +1,39 @@
+#root {
+  background-color: hsl(30, 38%, 92%);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.parent {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 400px;
+}
+
+#x {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 400px;
+  width: 320px;
+}
+
+.child {
+  width: 350px;
+  height: 600px;
+}
+
+h4 {
+  color: hsl(228, 12%, 48%);
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}

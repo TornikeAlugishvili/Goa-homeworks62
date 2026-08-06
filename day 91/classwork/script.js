@@ -4,6 +4,18 @@ let cancel = document.getElementById("cancel")
 let card = document.getElementsByClassName("card")
 let add = document.getElementById("add")
 let main = document.getElementsByTagName("main")[0]
+let checkout = document.getElementById("CheckOut")
+
+checkout.addEventListener("click", () => {
+  add.innerHTML = ""
+  amount = 0
+  total = 0
+
+  Amount.textContent = amount
+  Total.textContent = total
+
+  alert("Checked Out!")
+})
 
 cart.addEventListener("click", function(){
     shopping.style.transform = "translate(0px)"

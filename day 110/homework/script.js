@@ -1,0 +1,17 @@
+for (let i = 50; i <= 70; i++) {
+  console.log(i);
+}
+
+
+let i = 50;
+
+while (i <= 150) {
+  console.log(i);
+  i++;
+}
+
+for (let i = 1; i <= 50; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}

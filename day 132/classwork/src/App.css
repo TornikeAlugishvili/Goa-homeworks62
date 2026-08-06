@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#parent {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#t {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+#a {
+  color: gray;
+}
+
+#beladi {
+  padding-top: 20px;
+  width: 230px;
+  height: 200px;
+}
